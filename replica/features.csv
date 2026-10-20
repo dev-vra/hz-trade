@@ -1,0 +1,14 @@
+feature,area,priority,original,clone,notes
+Placar ponderado com explicação por indicador,sinais,must,yes,no,mostrar motivo no card
+Plano de entrada (entrada/vencimento/countdown/preço ref),sinais,must,yes,no,card confirmado
+Stop win/loss e parar após N loss/win (alerta),risco,should,yes,no,só alerta; sem execução
+Payout mínimo,risco,should,yes,no,config
+Níveis S/R + mini-gráfico,sinais,could,yes,no,
+Sessões/horários recomendados,config,should,yes,no,
+Calendário econômico do dia,painel,should,yes,no,dados FF já existem
+Corretora embutida + painel lateral,ui,must,yes,yes,HZ Sinais já tem
+Histórico com filtros de período,painel,should,yes,yes,falta filtro de data
+SMC/BOS + order block + FVG como fatores,estrategia,could,yes,no,backtestar antes
+Execução automática de ordens,robo,skip,yes,no,fora de escopo: entrada manual
+Gamificação/prêmios/indicações,negocio,skip,yes,no,não se aplica
+Afiliação corretora,negocio,skip,yes,no,não se aplica

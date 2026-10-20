@@ -1,0 +1,20 @@
+# dados, modelos e saídas pesadas/pessoais
+data/
+dados/
+reports/
+build/
+dist/
+kaggle/data/
+kaggle/kernel/Kronos/
+replica/screens/
+*.pkl
+*.parquet
+*.db
+*.log
+# segredos
+.env
+*.env
+monitor/.secret
+.remember/
+__pycache__/
+*.pyc
